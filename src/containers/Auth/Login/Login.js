@@ -5,7 +5,6 @@ import { useDispatch } from 'react-redux';
 import { auth, googleAuthProvider } from '../../../firebase';
 import classes from './Login.module.css';
 import Error from '../../../components/UI/Error/Error';
-import ForgotPassword from '../ForgotPassword/ForgotPassword';
 
 const Login = (props) => {
   const [email, setEmail] = useState('');
