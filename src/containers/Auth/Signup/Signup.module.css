@@ -1,0 +1,72 @@
+.signup {
+  display: grid;
+  grid-template-rows: 10% 90%;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+}
+
+.header {
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  color: #0e49b5;
+  font-size: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  text-align: center;
+}
+
+.signup form input {
+  font-size: inherit;
+  text-align: left;
+  height: 2.5rem;
+  width: 100%;
+  border: 1px solid rgb(190, 190, 190);
+  border-radius: 5px;
+  outline: none;
+}
+
+.signup form input:focus {
+  border: 2px solid skyblue;
+}
+.signup button {
+  font-size: inherit;
+  height: 2.5rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+  border-radius: 8px;
+  background-color: rgb(255, 201, 60);
+  color: #0e49b5;
+  font-weight: bold;
+  cursor: pointer;
+}
+.signup button:disabled {
+  background-color: #ccc;
+}
+
+.success {
+  color: green;
+}
+.error {
+  color: red;
+}
+
+.forgotPassword {
+  height: fit-content;
+  width: fit-content;
+  float: right;
+  padding: 2px;
+  color: #0e49b5;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}

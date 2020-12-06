@@ -1,0 +1,51 @@
+.header {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  align-items: center;
+  height: 60px;
+  background-image: linear-gradient(#153e90, #0e49b5);
+  font-size: 16px;
+  text-align: center;
+}
+
+.logo > a {
+  width: fit-content;
+  height: 2em;
+  font-size: 24px;
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+.login > button {
+  width: 5rem;
+  height: 2.2em;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #f2f2f2;
+  color: #153e90;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+}
+.search {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.search i {
+  box-sizing: border-box;
+  font-size: 1.5rem;
+  background-color: white;
+  color: #0e49b5;
+  padding: 4px;
+  border-radius: 2px 0 0 2px;
+}
+.search input {
+  text-align: left;
+  font-size: 1.5rem;
+  width: 60%;
+  height: 2rem;
+  border-radius: 0 2px 2px 0;
+  border: none;
+  outline: none;
+}

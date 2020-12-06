@@ -1,0 +1,96 @@
+.login {
+  display: grid;
+  grid-template-rows: 10% 90%;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+}
+
+.login .header {
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  color: #0e49b5;
+  font-size: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.login form input {
+  font-size: inherit;
+  text-align: left;
+  height: 2.5rem;
+  width: 100%;
+  border: 1px solid rgb(190, 190, 190);
+  outline: none;
+}
+
+.email {
+  border-radius: 8px 8px 0 0;
+  border-bottom: 1px solid rgb(190, 190, 190);
+}
+.password {
+  border-radius: 0px 0px 8px 8px;
+  border-top: none !important;
+}
+
+/* .login > form > input:focus {
+  outline: none;
+  border: 1px solid skyblue;
+} */
+
+.login button {
+  font-size: inherit;
+  height: 2.5rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+  border-radius: 8px;
+  background-color: rgb(255, 201, 60);
+  color: #0e49b5;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.success {
+  color: green;
+}
+.error {
+  color: red;
+}
+
+.login h6 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  position: relative;
+  padding: 10px;
+}
+.login h6:before,
+.login h6:after {
+  content: '';
+  border-top: 1px solid #ccc;
+  flex: 1 0 20px;
+  margin: 0 5px 0 0;
+}
+.login h6:after {
+  margin: 0 0 0 5px;
+}
+
+.forgotPassword {
+  height: fit-content;
+  width: fit-content;
+  float: right;
+  padding: 2px;
+  color: #0e49b5;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
